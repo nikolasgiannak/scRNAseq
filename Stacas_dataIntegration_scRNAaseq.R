@@ -69,6 +69,8 @@ Dimplot_2_CellType = DimPlot_scCustom(pbmcsca.semisup, group.by = c("CellType"),
                                       ) & NoLegend()
 
 DimPlot(pbmcsca.semisup, group.by = c("Experiment")) 
+Clustered_DotPlot(pbmcsca.semisup, group.by = c("Cluster"), 
+                  features = c("LYZ", "CST3", "CD69", "CD7"))
 
 Dimplot_2_Cluster = DimPlot_scCustom(pbmcsca.semisup, 
                             group.by = c("Cluster"),
