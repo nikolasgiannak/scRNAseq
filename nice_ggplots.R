@@ -5,6 +5,7 @@ library(dplyr)
 head(ToothGrowth)
 str(ToothGrowth)
 
+# assign colors
 wisteria <- c("grey65", "burlywood3", "khaki2", "plum1", "lightcyan2", "cornflowerblue", "slateblue3")
 
 ToothGrowth %>% 
